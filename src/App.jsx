@@ -9,11 +9,6 @@ function App() {
 
   return (
     <>
-      {/* <h1>HELLO REACTJS</h1> */}
-
-      {/* <Home />      */}
-
-    {/* <BrowserRouter> */}
       
         <Routes>
 
@@ -21,8 +16,6 @@ function App() {
 
       </Routes>
       
-    {/* </BrowserRouter> */}
-    
 
 
 
