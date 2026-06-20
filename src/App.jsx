@@ -1,4 +1,3 @@
-
 import './App.css'
 import Home from './components/home'
 import {  Routes, Route } from "react-router-dom"
@@ -14,10 +13,7 @@ function App() {
 
           <Route path="" element={<Home/>} />
 
-      </Routes>
-      
-
-
+        </Routes>    
 
   
     </>

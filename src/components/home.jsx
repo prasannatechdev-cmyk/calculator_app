@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div className="bgrnd">
-    
+    <h1 className="title">CALCULATOR APP</h1>
 
     <div className="calculator">
       <input type="text" value={display} readOnly />

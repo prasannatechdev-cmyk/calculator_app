@@ -1,8 +1,6 @@
 .bgrnd {
-  /* background: linear-gradient(to right, blue,red); */
   background-color: rgb(6, 6, 61);
-  padding: 69px;
-  /* padding: 5.27rem; */
+  padding: 25px;
 
 }
 
@@ -41,5 +39,32 @@ button {
   background: linear-gradient(to right, rgb(196, 70, 12),yellow);
   color: black;
   border-radius: 20px;  
+
+}
+
+
+.title{
+  color:rgb(167, 31, 31);
+  
+  text-align: center;
+  font-size: 3rem;
+  font-family: lucida handwriting;
+
+
+    animation:clr 3s infinite;
+
+  
+}
+
+@keyframes clr {
+  from{
+    color:rgb(201, 201, 15);
+    transform: translateX(0);
+
+  }
+  to{
+    color:red;
+    transform: translateX(20px);
+  }
 
 }
