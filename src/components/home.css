@@ -1,0 +1,45 @@
+.bgrnd {
+  /* background: linear-gradient(to right, blue,red); */
+  background-color: rgb(6, 6, 61);
+  padding: 69px;
+  /* padding: 5.27rem; */
+
+}
+
+
+.calculator {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background: linear-gradient(to right, blue,red);
+  box-shadow: 5px 5px 5px 5px white;
+  border-radius: 25px;
+  padding:10px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(196, 70, 12),yellow);
+  border-radius: 20px;  
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+
+button {
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(196, 70, 12),yellow);
+  color: black;
+  border-radius: 20px;  
+
+}
